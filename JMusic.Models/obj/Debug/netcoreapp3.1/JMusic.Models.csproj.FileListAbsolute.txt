@@ -1,7 +1,6 @@
 C:\Users\Isra\source\repos\API.JMusic\JMusic.Models\bin\Debug\netcoreapp3.1\JMusic.Models.deps.json
 C:\Users\Isra\source\repos\API.JMusic\JMusic.Models\bin\Debug\netcoreapp3.1\JMusic.Models.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.Models\bin\Debug\netcoreapp3.1\JMusic.Models.pdb
-C:\Users\Isra\source\repos\API.JMusic\JMusic.Models\obj\Debug\netcoreapp3.1\JMusic.Models.csprojAssemblyReference.cache
 C:\Users\Isra\source\repos\API.JMusic\JMusic.Models\obj\Debug\netcoreapp3.1\JMusic.Models.AssemblyInfoInputs.cache
 C:\Users\Isra\source\repos\API.JMusic\JMusic.Models\obj\Debug\netcoreapp3.1\JMusic.Models.AssemblyInfo.cs
 C:\Users\Isra\source\repos\API.JMusic\JMusic.Models\obj\Debug\netcoreapp3.1\JMusic.Models.csproj.CoreCompileInputs.cache
