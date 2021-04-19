@@ -1,0 +1,9 @@
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\bin\Debug\netcoreapp3.1\JMusic.DTOs.deps.json
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\bin\Debug\netcoreapp3.1\JMusic.DTOs.dll
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\bin\Debug\netcoreapp3.1\JMusic.DTOs.pdb
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\obj\Debug\netcoreapp3.1\JMusic.DTOs.csprojAssemblyReference.cache
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\obj\Debug\netcoreapp3.1\JMusic.DTOs.AssemblyInfoInputs.cache
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\obj\Debug\netcoreapp3.1\JMusic.DTOs.AssemblyInfo.cs
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\obj\Debug\netcoreapp3.1\JMusic.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\obj\Debug\netcoreapp3.1\JMusic.DTOs.dll
+C:\Users\Isra\source\repos\API.JMusic\JMusic.DTOs\obj\Debug\netcoreapp3.1\JMusic.DTOs.pdb
