@@ -19,11 +19,11 @@ namespace JMusic.Data
         {
         }
 
-        public virtual DbSet<DetalleOrden> DetalleOrden { get; set; }
-        public virtual DbSet<Orden> Orden { get; set; }
-        public virtual DbSet<Perfil> Perfil { get; set; }
-        public virtual DbSet<Producto> Producto { get; set; }
-        public virtual DbSet<Usuario> Usuario { get; set; }
+        public virtual DbSet<DetalleOrden> DetallesOrden { get; set; }
+        public virtual DbSet<Orden> Ordenes { get; set; }
+        public virtual DbSet<Perfil> Perfiles { get; set; }
+        public virtual DbSet<Producto> Productos { get; set; }
+        public virtual DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
