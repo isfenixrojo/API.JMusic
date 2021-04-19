@@ -1,4 +1,5 @@
-﻿using System;
+﻿using JMusic.Models.Enum;
+using System;
 using System.Collections.Generic;
 
 // Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
@@ -20,7 +21,7 @@ namespace JMusic.Models
         public string Email { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
-        public int Estatus { get; set; }
+        public EstatusUsuario Estatus { get; set; }
         public int PerfilId { get; set; }
 
         public virtual Perfil Perfil { get; set; }
