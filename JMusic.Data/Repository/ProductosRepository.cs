@@ -75,13 +75,17 @@ namespace JMusic.Data.Repository
         public async Task<Producto> ObtenerProductoAsync(int id)
         {
             return await _contexto.Productos
-                               .SingleOrDefaultAsync(c => c.Id == id);
+                               .SingleOrDefaultAsync(c => c.Id == id && c.Estatus == EstatusProducto.Activo);
         }
 
         public async Task<List<Producto>> ObtenerProductosAsync()
         {
-            return await _contexto.Productos.OrderBy(u => u.Nombre)
-                                            .ToListAsync();
+            return await _contexto.Productos
+                .Where(u => u.Estatus == EstatusProducto.Activo)
+                .OrderBy(u => u.Nombre)
+                .ToListAsync();
+
+
         }
     }
 
