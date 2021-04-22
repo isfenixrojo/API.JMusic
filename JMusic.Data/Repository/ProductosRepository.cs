@@ -69,7 +69,6 @@ namespace JMusic.Data.Repository
                 ;
             }
             return false;
-
         }
 
         public async Task<Producto> ObtenerProductoAsync(int id)
@@ -84,8 +83,6 @@ namespace JMusic.Data.Repository
                 .Where(u => u.Estatus == EstatusProducto.Activo)
                 .OrderBy(u => u.Nombre)
                 .ToListAsync();
-
-
         }
     }
 
