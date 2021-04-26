@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "JMusic.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/JMusic.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JMusic.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "JMusic.Models/1.0.0": {
+      "type": "project",
+      "path": "../JMusic.Models/JMusic.Models.csproj",
+      "msbuildProject": "../JMusic.Models/JMusic.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "JMusic.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Isra\\.nuget\\packages\\": {},
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Isra\\source\\repos\\API.JMusic\\JMusic.Models\\JMusic.Models.csproj": {
+              "projectPath": "C:\\Users\\Isra\\source\\repos\\API.JMusic\\JMusic.Models\\JMusic.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
