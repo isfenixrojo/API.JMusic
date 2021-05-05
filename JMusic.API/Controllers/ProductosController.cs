@@ -1,5 +1,7 @@
-﻿using JMusic.Data;
+﻿using AutoMapper;
+using JMusic.Data;
 using JMusic.Data.Interfaces;
+using JMusic.DTOs;
 using JMusic.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -15,19 +17,22 @@ namespace JMusic.API.Controllers
     public class ProductosController : ControllerBase
     {
         private readonly IProductosRepository _repository;
-        public ProductosController(IProductosRepository repository)
+        private readonly IMapper _mapper;
+        public ProductosController(IProductosRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public async Task<ActionResult<IEnumerable<Producto>>> GetProductos()
+        public async Task<ActionResult<IEnumerable<ProductoDTO>>> GetProductos()
         {
             try
             {
-                return await _repository.ObtenerProductosAsync();
+                var producto = await _repository.ObtenerProductosAsync();
+                return _mapper.Map<List<ProductoDTO>>(producto);
             }
             catch (Exception ex)
             {
@@ -37,14 +42,15 @@ namespace JMusic.API.Controllers
         [HttpGet("{Id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<Producto>> GetProducto(int Id)
+        public async Task<ActionResult<ProductoDTO>> GetProducto(int Id)
         {
             var producto = await _repository.ObtenerProductoAsync(Id);
+
             if (producto == null)
             {
                 return NotFound();
             }
-            return producto;
+            return _mapper.Map<ProductoDTO>(producto);
         }
 
         [HttpPost]

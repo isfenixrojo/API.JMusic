@@ -7,6 +7,7 @@
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.14">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -15,6 +16,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\JMusic.Data\JMusic.Data.csproj" />
+    <ProjectReference Include="..\JMusic.DTOs\JMusic.DTOs.csproj" />
+    <ProjectReference Include="..\JMusic.Models\JMusic.Models.csproj" />
   </ItemGroup>
 
 </Project>

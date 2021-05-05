@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "JMusic.DTOs/1.0.0": {
+        "dependencies": {
+          "JMusic.Models": "1.0.0"
+        },
         "runtime": {
           "JMusic.DTOs.dll": {}
+        }
+      },
+      "JMusic.Models/1.0.0": {
+        "runtime": {
+          "JMusic.Models.dll": {}
         }
       }
     }
   },
   "libraries": {
     "JMusic.DTOs/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JMusic.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

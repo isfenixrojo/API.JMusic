@@ -7,6 +7,8 @@ C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.API.runtimeconfig.dev.json
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.API.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.API.pdb
+C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -48,8 +50,10 @@ C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\runtime
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.Data.dll
+C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.DTOs.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.Models.dll
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.Data.pdb
+C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.DTOs.pdb
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\bin\Debug\netcoreapp3.1\JMusic.Models.pdb
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\obj\Debug\netcoreapp3.1\JMusic.API.csprojAssemblyReference.cache
 C:\Users\Isra\source\repos\API.JMusic\JMusic.API\obj\Debug\netcoreapp3.1\JMusic.API.AssemblyInfoInputs.cache
